@@ -33,3 +33,21 @@ The International Pulsar Timing Array
 extensive tutorials for using `enterprise` and `enterprise_extensions`. There is
 also a tutorial for using `libstempo <https://github.com/vallis/libstempo>`_, a Python
 wrapper for the pulsar timing software `TEMPO2`.
+
+Users Guide
+-----------
+In order to facilitate the sharing of changes to this software the following we
+make the following suggestions:
+
+After cloning the repo to your local machine, change directories and make a branch
+of the repository with ```yourinitials-working```:
+::
+
+    git clone https://github.com/Hazboun6/nanograv_noise_model_selection.git
+    cd nanograv_noise_model_selection
+    git checkout -b jsh-working
+
+This will allow more control when trying to make pull requests for changing the
+code. In addition, the ```outdir``` for the `PTMCMCSampler` is set as
+```chains/```. Please keep this as the outmost directory for any sampling
+chains, as the ```.gitignore``` will ignore all files in that directory. 
