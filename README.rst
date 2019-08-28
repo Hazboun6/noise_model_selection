@@ -34,6 +34,13 @@ extensive tutorials for using `enterprise` and `enterprise_extensions`. There is
 also a tutorial for using `libstempo <https://github.com/vallis/libstempo>`_, a Python
 wrapper for the pulsar timing software ``TEMPO2``.
 
+## Noise Model Notes
+There are a number of different kernels we use to model the time-correlated
+noise in our pulsars. This
+`pdf <https://raw.githubusercontent.com/Hazboun6/nanograv_noise_model_selection/master/Enterprise_Noise_Model_Notes.pdf>`
+discusses the ones currently supported by
+``enterprise_extensions``.
+
 Users Guide
 -----------
 In order to facilitate the sharing of changes to this software the following we

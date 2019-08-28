@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#PTMCMCSampler Output
+chain_1.txt
+pars.txt
+
+chains/
+
+#DS_Store
+.DS_Store
