@@ -55,6 +55,7 @@ of the repository with ``YOURINITIALS-working``:
     git checkout -b jsh-working
 
 This will allow more control when trying to make pull requests for changing the
-code. In addition, the ``outdir`` for the `PTMCMCSampler` is set as
-``chains/``. Please keep this as the outmost directory for any sampling
+code. Please keep chains out of the repository. This can be done by setting the 
+``outdir`` to a different directory, or instead if you can set
+``chains/`` as the outmost directory for any sampling
 chains, as the ``.gitignore`` will ignore all files in that directory.
